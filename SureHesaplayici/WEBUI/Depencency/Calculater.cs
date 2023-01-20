@@ -11,7 +11,7 @@
 
             long summ = minutes.Sum(q => q);
 
-            float ToplamSaat = summ / 60;
+            decimal ToplamSaat = Convert.ToDecimal((float)summ / (float)60);
 
             decimal result = Convert.ToDecimal(((float)((float)perEightHour / 8) / 60) * summ);
 
