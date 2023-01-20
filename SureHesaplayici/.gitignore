@@ -1,0 +1,26 @@
+# Created by https://www.toptal.com/developers/gitignore/api/dotnetcore
+# Edit at https://www.toptal.com/developers/gitignore?templates=dotnetcore
+
+### DotnetCore ###
+# .NET Core build folders
+bin/
+obj/
+
+# Common node modules locations
+/node_modules
+Codeandmorenuget/frontend/node_modules
+Codeandmorenuget/frontend/dist
+Codeandmorenuget/frontend/src/assets/images
+Codeandmorenuget/frontend/src/assets/icon
+Codeandmorenuget/frontend/src/assets/pdf
+Codeandmorenuget/frontend/src/assets/favicon
+CodeAndMoreNuget/frontend/src/assets/images
+/wwwroot/node_modules
+/publish
+CodeAndMoreNuget/publish
+CodeAndMoreNuget/wwwroot/images
+/CodeAndMoreNuget/wwwroot/images/
+
+
+# End of https://www.toptal.com/developers/gitignore/api/dotnetcore
+*.vsidx
